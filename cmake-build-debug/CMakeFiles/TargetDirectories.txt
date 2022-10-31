@@ -1,0 +1,3 @@
+/home/faithgel/CLionProjects/spreedsheet/cmake-build-debug/CMakeFiles/spreedsheet.dir
+/home/faithgel/CLionProjects/spreedsheet/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/faithgel/CLionProjects/spreedsheet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
