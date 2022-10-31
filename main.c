@@ -237,15 +237,6 @@ double evaluate_formula(char col, int row, cell*** matrix) {
 //0: double
 //1: string
 //2: formula
-//Next to the data type is the data of the cell
-//If the data type is double then the data is the double value
-//If the data type is string then the data is the string
-//If the data type is formula then the data is the formula
-//The data is separated by a tab character '\t'
-//and the first data is separated by a new line character '\n'
-//The file name is passed as a parameter to the function
-//The function will print the error message if the file cannot be opened for writing
-//The function will print success message if the file is saved successfully
 void save_grid(char* file_name, cell*** matrix, int* size) {
     FILE *fp = fopen(file_name, "w");
     if (fp == NULL) {
